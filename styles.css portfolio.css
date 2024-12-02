@@ -1,0 +1,41 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 50px; /* Adjust this value based on the navbar height */
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:yellow;
+  }
+  
+  #projects {
+    padding: 20px;
+  }
+  
+  .project-tile {
+    margin: 20px 0;
+  }
+  
+  #profiles {
+    margin: 20px;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
